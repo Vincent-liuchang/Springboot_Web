@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header{
+            font-size: 30px;
+            font-family: "Gill Sans", sans-serif;
+            padding: 50px 0;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .border{
+            width: 60%;
+            height: 5px;
+            background: gray;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .gallery{
+            margin-top: 50px;
+            width: 80%;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            justify-content: center;
+            flex-flow: row wrap;
+        }
+        .gallery a img{
+            width: 450px;
+            height: auto;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="header">My Gallery</div>
+<div class="border"></div>
+<div class="gallery">
+    <a href="/file/1.jpg"><img src="/file/1.jpg"></a>
+    <a href="/file/2.jpg"><img src="/file/2.jpg"></a>
+    <a href="/file/3.jpg"><img src="/file/3.jpg"></a>
+    <a href="/file/4.jpg"><img src="/file/4.jpg"></a>
+    <a href="/file/5.jpg"><img src="/file/5.jpg"></a>
+    <a href="/file/6.jpg"><img src="/file/6.jpg"></a>
+</div>
+</body>
+</html>
